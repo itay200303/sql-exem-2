@@ -1,0 +1,3 @@
+DELETE FROM tourists
+WHERE tour_id IS NULL
+LIMIT 1;

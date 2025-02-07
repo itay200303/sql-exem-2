@@ -1,0 +1,7 @@
+SELECT
+tourists.first_name,
+tourists.last_name,
+countries.country_name
+FROM tourists
+INNER JOIN 
+countries ON tourists.country_id = country_id;
